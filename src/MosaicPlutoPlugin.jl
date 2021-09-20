@@ -10,11 +10,6 @@ function MosaicWidget(schem; db="schematics")
         }
         </style>
         <div id="mosaic_root" />
-        <script id="24">
-            console.log("setup")
-            window.schem = $(schem)
-            window.db = $(db)
-        </script>
         <script src="http://wishfulcoding.nl/mosaic/js/main.js" id="25"></script>
         <script id="26">
             console.log("setup2")
@@ -30,7 +25,7 @@ function MosaicWidget(schem; db="schematics")
                 node.value = spice
                 node.dispatchEvent(new CustomEvent("input"));
             }
-            nyancad.mosaic.frontend.init()
+            nyancad.mosaic.frontend.init($(schem), $(db))
             nyancad.mosaic.frontend.current_spice_callback(pluto_handler)
         </script>
         </div>
