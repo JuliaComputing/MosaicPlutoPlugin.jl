@@ -7,4 +7,5 @@ version = "0.1.0"
 HypertextLiteral = "ac1192a8-f4b3-4bfe-ba22-af5b92cd3ab2"
 
 [compat]
+HypertextLiteral = "0.9"
 julia = "1"
