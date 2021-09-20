@@ -1,7 +1,7 @@
 name = "MosaicPlutoPlugin"
 uuid = "4f430837-3c73-4d84-983f-319326c5f667"
 authors = ["Pepijn de Vos <pepijndevos@gmail.com>"]
-version = "0.1.0"
+version = "0.1.1"
 
 [deps]
 HypertextLiteral = "ac1192a8-f4b3-4bfe-ba22-af5b92cd3ab2"
